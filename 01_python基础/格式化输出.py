@@ -1,0 +1,10 @@
+name="小明"
+print("我的名字叫%s,"%name)
+student_no=11234568
+print("我的学号是：%06d"%student_no)
+price=9.00
+weight=1.5
+money=price*weight
+print("苹果单价%.2f元/斤，购买了%.2f斤，需要支付%.2f元"%(price,weight,money))
+scale=0.25
+print("数据比例是%.2f%%"%(scale*100))
