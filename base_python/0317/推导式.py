@@ -10,6 +10,10 @@ def main():
     prices2 = {key: value for key, value in prices.items() if value > 100}
     print(prices2)
 
+def delete_head(t):
+    del t[0]
+
+
 
 if __name__ == '__main__':
     main()
