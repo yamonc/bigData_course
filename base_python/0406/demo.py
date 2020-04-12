@@ -3,7 +3,6 @@
 # 那个版本运行得慢？为什么？
 import time
 
-
 def make_word_list1():
     """
     读取文件中的单词
